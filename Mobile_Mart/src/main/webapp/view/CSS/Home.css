@@ -1,0 +1,88 @@
+/* Custom Color Variables */
+:root {
+	--primary-color: #0b090a; /* Custom primary color */
+	--secondary-color: #495057; /* Custom secondary color */
+	--text-color: #333;
+	/* Custom text color */
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+}
+
+.banner {
+	background-image: url('./assets/header.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+
+
+/* Product Management Styles */
+.product-management {
+	padding: 4rem 2rem;
+}
+
+.product-management h1 {
+	font-size: 2.5rem;
+	color: var(--text-color);
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.product-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+}
+
+.product-card {
+	background-color: #fff;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	text-align: center;
+}
+
+.product-card img {
+	width: 100%;
+	height: 200px; /* Set a fixed height for all images */
+	object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+	transition: transform 0.3s ease;
+}
+
+.product-card img:hover {
+	transform: scale(1.1); /* Increase scale on hover */
+}
+
+.product-card h3 {
+	font-size: 1.5rem;
+	color: var(--text-color);
+	margin-bottom: 1rem;
+}
+
+.product-card p {
+	color: var(--text-color);
+	margin-bottom: 0.5rem;
+}
+
+.product-card button {
+	padding: 0.8rem 2rem;
+	background-color: var(--primary-color);
+	color: #fff;
+	border: none;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+	background-color: var(--secondary-color);
+}

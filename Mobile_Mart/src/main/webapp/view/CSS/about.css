@@ -1,0 +1,67 @@
+/* Style for the about-section */
+.about-section {
+	background-color: #f9f9f9;
+	padding: 50px 0;
+}
+
+/* Style for the content container */
+.content-container {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Style for the about-content */
+.about-content {
+	padding: 0 20px;
+}
+
+/* Style for the about-title */
+.about-title {
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+/* Style for the about-text */
+.about-text {
+	color: #666;
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+/* Style for the contact-form */
+.contact-form {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the send-message-btn */
+.aboutusbtn {
+	background-color: black;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+/* Style for form input fields */
+#messageForm input[type="text"] {
+	width: calc(100% - 22px);
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+/* Style for form input fields */
+#messageForm input[type="text"]:last-of-type {
+	margin-bottom: 20px;
+}

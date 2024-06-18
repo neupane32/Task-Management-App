@@ -1,0 +1,58 @@
+.header {
+	background-color: #ffffff; /* White background for cleanliness */
+	padding: 20px; /* Spacing inside the header */
+	text-align: center; /* Center the content */
+}
+
+.container {
+	max-width: 800px; /* Set a max-width for the container */
+	margin: 0 auto; /* Center the container */
+}
+
+.auth-container {
+	background-color: #f9f9f9; /* Slightly off-white for the form area */
+	border-radius: 5px; /* Rounded corners for the form */
+	padding: 20px; /* Spacing inside the form */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column; /* Stack form fields vertically */
+}
+
+.form-input {
+	border: 1px solid #cccccc; /* Light grey border for inputs */
+	border-radius: 3px; /* Slightly rounded borders for inputs */
+	padding: 10px; /* Spacing inside inputs */
+	margin-bottom: 15px; /* Space between form fields */
+}
+
+.form-submit {
+	background-color: black; /* Green background for submit button */
+	color: white; /* White text for the button */
+	padding: 10px 15px; /* Padding inside the button */
+	border: none; /* No border for the button */
+	border-radius: 3px; /* Slightly rounded borders for the button */
+	cursor: pointer; /* Pointer cursor on hover */
+	width: auto; /* Auto width based on content */
+	display: block; /* Block display to allow margin auto to work */
+	margin: 0 auto; /* Center the button in the form */
+	max-width: 200px; /* Maximum width of the button */
+}
+
+.form-submit:hover {
+	background-color: #22223b; /* Darker green on hover */
+}
+
+
+
+
+/* Image Preview Styles */
+#imagePreview {
+	display: block; /* Block display for proper spacing */
+	margin: 10px auto; /* Center the image preview */
+	border-radius: 50%; /* Circular image preview */
+	max-width: 100px; /* Set a max-width for the image preview */
+	max-height: 100px; /* Set a max-height for the image preview */
+}

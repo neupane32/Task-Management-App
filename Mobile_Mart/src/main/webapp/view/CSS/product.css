@@ -1,0 +1,83 @@
+/* Basic table styles */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 5rem;
+}
+
+th, td {
+	padding: 1rem;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #f8f8f8;
+}
+
+td.product-image img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+/* Action buttons */
+.product-actions {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-actions button {
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 3px;
+	font-size: 1.5rem;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.product-actions button:hover {
+	background-color: #333;
+}
+
+.edit-btn {
+	background-color: #4CAF50;
+	padding: 1rem;
+}
+
+.delete-btn {
+	background-color: #F44336;
+	padding: 1rem;
+}
+
+/* No products message */
+.no-products {
+	text-align: center;
+	padding: 2rem;
+}
+
+.no-products h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.no-products .btn {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 0.75rem 1.5rem;
+	border: none;
+	border-radius: 5px;
+	font-size: 0.9rem;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.no-products .btn:hover {
+	background-color: #006400;
+}

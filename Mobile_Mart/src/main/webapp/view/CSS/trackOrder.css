@@ -1,0 +1,83 @@
+/* Basic table styles */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 2rem;
+}
+
+th, td {
+	padding: 1rem;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #f8f8f8;
+}
+
+/* Order status highlighting */
+.pending {
+	color: #f90;
+}
+
+.delivered {
+	color: #090;
+}
+
+/* Professional styling enhancements */
+table {
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+th {
+	color: #333;
+}
+
+td {
+	border-bottom: 1px solid #ddd;
+}
+
+.order-details {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.order-details a {
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 3px;
+	font-size: 0.8rem;
+	color: #fff;
+	background-color: #4CAF50; /* Green for view details */
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.order-details a:hover {
+	background-color: #333;
+}
+
+.action-btn {
+	padding: 5px 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.action-btn:hover {
+	background-color: #45a049;
+}
+.status {
+    color: green; 
+}
+.price{
+	color : red;
+}
